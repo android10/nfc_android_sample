@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+	<LinearLayout 
+		android:layout_width="match_parent" 
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	    android:layout_centerHorizontal="true"
+	    android:layout_centerVertical="true"
+	    android:padding="5dp">
+	    <ImageView
+	        android:id="@+id/image"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:padding="10dp"
+	        android:src="@drawable/beam"/>
+	    <EditText 
+	        android:id="@+id/textData"         
+	        android:layout_width="match_parent"
+	        android:layout_marginTop="20dp"
+	        android:layout_height="wrap_content"
+	        android:hint="Your data here!"/>
+	</LinearLayout>        
+
+</RelativeLayout>

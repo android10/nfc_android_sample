@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+	<LinearLayout 
+		android:layout_width="match_parent" 
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	    android:layout_centerHorizontal="true"
+	    android:layout_alignParentTop="true"
+	    android:padding="20dp">
+	    <ImageView
+	        android:id="@+id/image"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:padding="10dp"
+	        android:src="@drawable/android_blue_logo" />	    
+	    <EditText 
+	        android:id="@+id/textData"         
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Data to send!!!"
+	        android:hint="Your data here!"/>
+	</LinearLayout>        
+
+    
+    
+	<LinearLayout 
+		android:layout_width="match_parent" 
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	    android:layout_alignParentBottom="true">    
+	    <Button 
+	        android:id="@+id/buttonWriteTag"         
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/text_button_write"/>
+	</LinearLayout>    
+
+</RelativeLayout>

@@ -1,0 +1,54 @@
+# ----------------------------------------------------------
+# A N D R O I D
+# ----------------------------------------------------------
+# built application files
+*.apk
+*.ap_
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# generated files
+bin/
+gen/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# ----------------------------------------------------------
+# E C L I P S E
+# ----------------------------------------------------------
+*.pydevproject
+.project
+.metadata
+bin/**
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# CDT-specific
+.cproject
+
+# PDT-specific
+.buildpath
+
+# ----------------------------------------------------------
+# M A C     O S 
+# ----------------------------------------------------------
+.DS_Store
