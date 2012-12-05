@@ -88,7 +88,12 @@ public class ReadTagActivity extends Activity {
                 if (payloadString.equals("vader")) {
                 	finish();
                 	startActivity(new Intent(ReadTagActivity.this, VaderActivity.class));
+                
+                } else if (payloadString.equals("ass")) {
+                	finish();
+                	startActivity(new Intent(ReadTagActivity.this, AssActivity.class));
                 }
+                
                 mTextViewData.setText(payloadString);
             }
         }
